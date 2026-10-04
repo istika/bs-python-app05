@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bs-python-app05
+  description: Python app that displays time - named bs-python-app05
+  tags:
+    - python
+    - flask
+  annotations:
+    github.com/project-slug: istika/bs-python-app05
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
